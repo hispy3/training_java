@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+	#rcorner {
+    border-radius: 50px/15px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="200" height="800"></canvas>
+	<canvas id="rcorner" </canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      context.beginPath();
+      context.rect(100, 150, 80, 300);
+      context.fillStyle = 'yellow';
+      context.fill();
+      context.lineWidth = 3;
+      context.strokeStyle = 'black';
+      context.stroke();
+    </script>
+  </body>
+</html>      

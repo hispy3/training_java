@@ -1,0 +1,31 @@
+p {
+margin: 0px;
+}
+div {
+border: solid;
+border-color: black;
+}
+#div1 {
+background-color: yellow;
+position:relative;
+top:10px;
+bottom:30px;
+}
+#div2 {
+background-color: cyan;
+position: relative;
+top: 25px;
+left: 30px;
+}
+#div3 {
+background-color: lightpink;
+}
+#div4 {
+background-color: orange;
+}
+#div5 {
+background-color: lightblue;
+}
+#div6 {
+background-color: lightgray;
+}
